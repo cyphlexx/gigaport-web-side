@@ -1,0 +1,55 @@
+{
+  "style": "Photorealistic documentary photograph taken inside a real, working computer repair workshop in Bursa, Turkey. Shot on a full-frame camera with a 50mm lens at f/2.8, natural daylight from a side window mixed with a cool white LED task lamp, shallow depth of field, true-to-life colors in a restrained cool palette of navy blue anti-static mat, brushed steel, matte black and white, subtle real-world imperfections such as light dust, fingerprints and worn tool handles, fine film grain. Hands look natural with correct anatomy and realistic skin texture. Absolutely no readable text, no logos, no brand names, no watermarks. Not CGI, not a 3D render, not an illustration, not overly glossy or stock-photo staged.",
+  "images": {
+    "hero-bench": {
+      "aspect": "16:9",
+      "prompt": "Wide three-quarter view of a repair bench: a disassembled laptop lies open on a navy blue ESD anti-static mat, its motherboard exposed. A technician's hands (no face visible, dark navy work shirt sleeves) hold a precision screwdriver over the board. Around it, neatly arranged: a magnetic parts tray with tiny screws, a digital multimeter with probes, a soldering station with a thin wisp of smoke, an articulated magnifier lamp. The left third of the frame is calmer and slightly darker (soft window light falloff) leaving negative space for headline text."
+    },
+    "workshop": {
+      "aspect": "16:9",
+      "prompt": "Interior of a small, tidy, professional computer repair workshop: a long continuous workbench along a window with three work stations, each with a navy ESD mat and a laptop or desktop under repair, articulated lamps, shelves above with identical grey labeled parts bins (labels unreadable), coiled cables hung neatly, a desktop tower with side panel removed. Calm afternoon daylight. No people, lived-in but organized."
+    },
+    "service-laptop": {
+      "aspect": "4:3",
+      "prompt": "Close-up of a technician carefully lifting a cracked laptop display panel out of its lid, the plastic bezel removed and placed beside it, a plastic spudger tool and a new replacement panel in anti-static bag on the navy mat."
+    },
+    "service-desktop": {
+      "aspect": "4:3",
+      "prompt": "A desktop PC tower lying on its side on the bench with the side panel removed, a technician's hands reseating a graphics card into the motherboard slot, tidy cable management visible, a power supply tester next to it."
+    },
+    "service-os": {
+      "aspect": "4:3",
+      "prompt": "A laptop on the repair bench showing a plain, generic operating system installation progress screen (simple progress bar, no recognizable OS branding, nothing readable), a small USB flash drive plugged into its side, a technician's hand resting near the touchpad, a second laptop in the soft-focus background."
+    },
+    "service-data": {
+      "aspect": "4:3",
+      "prompt": "Macro shot of an opened 3.5 inch hard disk drive showing its mirror-like platters and read/write head arm, handled with a gloved hand in a clean workstation, an NVMe M.2 SSD and a SATA SSD lying next to it, cool clinical light."
+    },
+    "service-security": {
+      "aspect": "4:3",
+      "prompt": "Over-the-shoulder view (no face) of a technician at a desk working on a customer laptop connected to a second monitor; both screens show blurred abstract scan progress and system lists that are completely unreadable, a calm focused atmosphere, coffee cup, notebook."
+    },
+    "service-upgrade": {
+      "aspect": "4:3",
+      "prompt": "Close-up of fingers pressing a SO-DIMM RAM module into the slot of an open laptop, with an M.2 NVMe SSD and its tiny screw waiting on the mat beside it, the laptop bottom cover lying upside down nearby."
+    },
+    "service-maintenance": {
+      "aspect": "4:3",
+      "prompt": "Close-up of a laptop cooling fan and copper heat pipe being cleaned with a small anti-static brush, visible grey dust coming off the fan blades, a CPU die with fresh grey thermal paste applied, a syringe of thermal paste and isopropyl alcohol wipes on the navy mat."
+    },
+    "service-business": {
+      "aspect": "4:3",
+      "prompt": "A technician (seen from behind and side, face not visible, navy work shirt) working at an open wall-mounted network cabinet in a small office, neatly bundled blue patch cables, a network switch with small green status LEDs, a laptop on a small cart beside the cabinet, an office with desks softly blurred in the background."
+    },
+    "handover": {
+      "aspect": "4:3",
+      "prompt": "At a clean service counter, a technician's hands slide a closed, freshly repaired laptop across to a customer's hands; on top of the laptop lies a small paper service receipt tag with a QR code (no readable text). Warm welcoming but realistic shop lighting, faces out of frame."
+    }
+  },
+  "videos": {
+    "hero-loop": {
+      "from": "hero-bench",
+      "prompt": "Locked-off static camera, no camera movement. The technician's hands make small, slow, precise movements turning the precision screwdriver; a thin wisp of solder smoke drifts upward and dissipates; the light stays constant. Subtle, calm, realistic motion suitable for a seamless background loop."
+    }
+  }
+}
